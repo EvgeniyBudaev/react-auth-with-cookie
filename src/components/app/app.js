@@ -30,23 +30,23 @@ class App extends Component {
 
   readCookie = () => {
     const user = Cookies.get("user4");
-    // if (user) {
-    //   this.setState({
-    //     auth: !!true
-    //   })
-    // }
+    if (user) {
+      this.setState({
+        auth: true
+      })
+    }
   }
 
   handlerOnClickLogin = () => {
     this.setState({
-      auth: !!true
+      auth: true
     })
     Cookies.set("user4", "4")
   }
 
   handlerOnClickLogout = () => {
     this.setState({
-      auth: !!false
+      auth: false
     })
     Cookies.remove("user4");
   }

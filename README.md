@@ -3,7 +3,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Available Scripts
 
 In the project directory, you can run:
-
+### `npm install`
+### `npm install react-router-dom`
+### `npm install js-cookie`
 ### `npm start`
 
 Runs the app in the development mode.<br />
